@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #bdc3c7;
+    font-family: "Poppins", sans-serif;
+
+}
+.logo{
+    color: #27ae60;
+    font-family: "Dancing Script", cursive;
+    
+   
+}
+
+.header{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    po
+    
+}
+
+
+.nav ul li{
+ display: inline-block;
+ list-style-type: none;
+ margin-right: 30px;
+}
+
+
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 5px;
+}
+.nav ul li a:hover {
+background-color: #27ae60;
+    padding: px;
+    border-radius: 5px;
+}
+.headicon i{
+    margin-right: 15px;
+    color: black;
+    background-color: rgb(192, 201, 201);
+
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.slider{
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+   justify-content:space-around;
+
+}
+
+.sliderdescrip{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:space-between;
+    align-items: flex-start;
+    
+    
+}
+.sliderimg{
+    width: 35%;
+
+}
+
+.sliderimg img{
+    width: 95%;
+}
+
+.sliderdescrip p{
+    color: #27ae60;
+}
+.slider button{
+    color: white;
+    background-color: #30336b;
+    width: 20%;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+   border-style: none;
+   padding: 5px;
+   margin-top: 20px;
+}
+
+.slider button:hover{
+background-color: #27ae60;
+color: black;
+}
+
+
+.cardhead{
+   text-align: center;
+   margin-top: 5px;
+}
+
+.dishcard{
+    width: 30%;
+    height: 315px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+}
+
+.addtofav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.imgcontainer{
+    width: 50%;
+    height: 60%;
+    
+}
+
+.container img{
+    width: 100%;
+    margin-top: 30px;
+    
+    
+}
+
+.price{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price button{
+    background-color: #30336b;
+    color: white
+    ;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.price button:hover{
+    background-color: #27ae60;
+        color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-evenly;
+    
+}
+
+.reviewone{
+    background-color: white;
+    border: 1px solid rgb(197, 192, 192);
+    box-shadow: 1px 1px 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+
+}
+.top{
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.revhead{
+    height: 100px;
+    margin-top: 20px;
+    
+    padding-bottom: 5px;
+    padding-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+.revhead p{
+color: #27ae60;
+font-weight: bolder;
+}
+
+.review{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.orderhead{
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.orderhead p{
+    color: #27ae60;
+    font-weight: bold;
+    padding-bottom: 5px;
+        padding-top: 10px;
+}
+
+
+.form{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    background-color:#27ae60;
+    height: 500px;
+}
+form{
+   box-shadow: 1px 1px 5px , -1px -1px 5px;
+   
+   width: 30%;
+   height: 90%;
+   
+   padding-left: 10px; 
+   
+}
+
+
+.footer p{
+    font-weight: bold;
+}
+
+.location{
+    display: flex;
+    
+    justify-content:flex-start;
+    column-gap: 10px;
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footercredit p{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
